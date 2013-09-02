@@ -13,11 +13,11 @@ Students are expected to take responsibility for their learning of the
 
 Grades will be based on the following components:
 
-  * preparation for the class (“memos,” **15%** of the course grade),
-  * contribution to class discussion (**15%**),
-  * the term paper (three deliverables jointly worth **50%**),
-  * reviews of other students’ paper proposals (**10%**),
-  * a course “patch” (**10%**, see below).
+  * preparation for the class (“memos,”  **15%** of the course grade),
+  * contribution to class discussion ( **15%**),
+  * the term paper (three deliverables jointly worth **45%**),
+  * the "patch and vote" exercise (two deliverables jointly worth **15%**),
+  * a course “patch” ( **10%**, see below).
 
 ### Contribution to Class Discussion — 15%
 
@@ -74,7 +74,7 @@ The memos are due by email, <span class="important">by 8 am of the day
 Students responsible for chairing each class will be tasked with
   reading and summarizing submitted memos in writing.
 
-### Term Paper and Presentation - 50%
+### Term Paper and Presentation - 45%
 
 A major component of the course is a term paper exploring a specific
   topic related to the content of the course.
@@ -170,16 +170,40 @@ The papers will be shared with other students and will be evaluated by
 The final grade for the paper will also incorporate an assessment of
   your original proposal and the presentation.
 
-### Paper Proposal Reviews — 10%
+### Patch and Vote Exercise — 15%
 
-Each student will receive three proposals from other teams and will
-  then be asked to write a review of each proposal.
-The reviews should be constructive in their focus and aim to help the
-  author of each proposal improve their paper.
-Each review should be 1–2 pages long and can include a bibliography if
-  appropriate.
-(If you include a bibliography, do not count it towards the page
-  limit.)
+The instructor will make available a specification that details the 
+range of functionality realized thus far by a mock F/OSS project.
+This specification will serve as the platform – the trunk – upon which 
+the student contribution – a branch – will build.  Supplying the 
+aforementioned specification will serve two purposes: first, to support 
+student preparation concerning the assignment describing here; and 
+second, to support preparation for the “Course Patch” assignment that 
+follows, in particular, the nomenclature that frames source code 
+revision management.
+
+This assignment will require a two part submission.
+
+Submission One:
+Students, having self-organized into groups of two or three, will 
+craft a “patch” that describes extended or altered functionality to 
+be submitted for consideration – a “vote”.  Students are expected to 
+draw on themes described in course readings to contextualize their 
+contributions.  The patch description and associated context related
+discussion should not exceed 2 pages in length.
+
+Submission Two:
+Student groups will assume the role of assessor, expressing, for 
+each patch submitted other than their own, an opinion that underpins 
+their vote – approved or excluded.  While somewhat contrived given 
+the absence of a working patch upon which to base a vote, 
+the effort is intended to inspire thoughtful commentary concerning
+the voting choice offered.  Groups will submit, via email, their assessor
+document to the instructor.  In place of disclosing vote related
+commentary to the patch submission group, the instructor will provide each 
+patch group a summary of voting results, alongside a summary of the vote 
+commentary submitted.  The commentary concerning each patch assessment and vote should not
+exceed 1 page in length.
 
 ### A Course “Patch” — 10%
 
@@ -190,6 +214,3 @@ The “source files” for the course syllabus are available on Github at
 The patches will be submitted via Github, which will include the
   actual modification and a brief summary.
 Additionally, a one-page justification should be submitted via email.
-
-
-
